@@ -293,6 +293,3 @@ defaults:
       share: true
       related: false
 
-category_archive:
-  type: liquid
-  path: _pages/category/
