@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "GitHub Pages 따라하기- dongdongO.github.io"
+title                    : "Dongdong blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "취미코딩하는 개발자"
-description              : "회사에서는 월급 받고 집에서는 취미로 코딩하는 개발자의 블로그"
+name                     : "Dongdong"
+description              : "Struct"
 url                      : "https://dongdongo.github.io"
 baseurl                  : # 서브 경로가 있는 경우 기재
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/test.png"
+teaser                   : "/assets/images/blogmain.png"
 logo                     : # 최상단 메뉴 바에 사이트 로고 넣기
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -75,7 +75,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/test2.png"
+og_image                 : "/assets/images/blogmain.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -92,15 +92,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "취미코딩하는 개발자"
-  avatar           : "/assets/images/test3.png"
-  bio              : "회사에서는 월급 받고 집에서는 취미로 코딩하는 개발자"
+  name             : "Dongdong"
+  avatar           : "/assets/images/blogmain.png"
+  bio              : "예... 뭐 그냥"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:devinlifeidea@gmail.com
+      url: mailto:tjehdghks4356@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dongdongo.com"
