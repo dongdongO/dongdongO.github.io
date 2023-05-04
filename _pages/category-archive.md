@@ -1,10 +1,7 @@
 ---
 title: "Posts by Category"
-layout: categories
+layout: category_archive
 permalink: /categories
 author_profile: true
 ---
 
-{% for category in site.categories %}
-  <h3>{{ category | first }}</h3>
-{% endfor %}
