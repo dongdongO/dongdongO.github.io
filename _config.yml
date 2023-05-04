@@ -292,3 +292,5 @@ defaults:
       comments: false
       share: true
       related: false
+
+baseurl: ""

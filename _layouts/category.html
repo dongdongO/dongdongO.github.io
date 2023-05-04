@@ -2,9 +2,23 @@
 layout: archive
 ---
 
-{{ content }}
+{% if page.title %}
+  <h1 class="archive__title">{{ page.title }}</h1>
+{% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
-</div>
+{% for category in site.categories %}
+  {% assign posts = category | last %}
+  {% assign categoryName = category | first %}
+  <h3 id="{{ categoryName | slugify }}">
+    <a href="{{ site.baseurl }}/categories/{{ categoryName | slugify }}">{{ categoryName }}</a>
+  </h3>
+  <ul>
+  {% for post in posts %}
+    {% if post.categories contains categoryName %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
